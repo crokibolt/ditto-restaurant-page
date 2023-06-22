@@ -1,5 +1,3 @@
-import React from "react";
-
 type ItemProps = {
   reference: string;
   text: string;

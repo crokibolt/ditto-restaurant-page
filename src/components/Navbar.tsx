@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import NavbarItem from "./NavbarItem";
 import { HiMenu } from "react-icons/hi";
 import MobileMenu from "./MobileMenu";

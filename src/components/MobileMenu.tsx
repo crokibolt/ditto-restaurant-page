@@ -1,4 +1,3 @@
-import React from "react";
 import NavbarItem from "./NavbarItem";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -15,7 +14,7 @@ function MobileMenu({ toggle }: MobileProps) {
   return (
     <div
       id="container"
-      className="h-screen w-screen absolute font-sans animate-appear text-white top-0 left-0 bg-black flex flex-col items-center justify-evenly text-2xl"
+      className="h-screen w-screen absolute font-sans animate-appear text-white top-0 left-0 bg-black flex flex-col items-center justify-evenly text-xl"
     >
       <div onClick={redirect}>
         <NavbarItem reference={"#home"} text={"Home"} />
