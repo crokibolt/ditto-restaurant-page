@@ -4,7 +4,7 @@ import { AboutUs, Header, Menu } from "./pages";
 
 function App() {
   return (
-    <div className="w-screen h-screen scroll-smooth overflow-x-hidden">
+    <div className="w-screen h-screen scroll-smooth overflow-x-hidden snap-proximity snap-y">
       <Navbar />
       <Header />
       <AboutUs />

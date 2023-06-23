@@ -7,7 +7,7 @@ function Header() {
   }
   return (
     <div
-      className="w-screen h-[calc(100vh-80px)] block overflow-hidden py-[50px] px-[16px] md:py-[160px] md:px-[50px] lg:py-[200px] lg:px-[500px] text-center"
+      className="w-screen h-[calc(100vh-80px)] block overflow-hidden py-[50px] px-[16px] md:py-[160px] md:px-[50px] lg:py-[200px] lg:px-[500px] text-center snap-end snap-always"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundRepeat: "no-repeat",

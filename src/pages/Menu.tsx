@@ -22,7 +22,7 @@ const transitions = ["translate-x-0", "-translate-x-[100vw]"];
 function Menu() {
   const [selectedMenu, setSelectedMenu] = useState(1);
   return (
-    <div id="menu" className="w-screen h-screen relative">
+    <div id="menu" className="w-screen h-screen relative snap-end snap-always">
       <h1 className="text-3xl md:text-5xl text-center text-yellow-400 bg-black tracking-wider font-semibold h-[75px] py-3">
         MENU
       </h1>
