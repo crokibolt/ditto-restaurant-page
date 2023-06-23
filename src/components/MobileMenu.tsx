@@ -3,9 +3,10 @@ import { AiOutlineClose } from "react-icons/ai";
 
 type MobileProps = {
   toggle: () => void;
+  isVisible: boolean;
 };
 
-function MobileMenu({ toggle }: MobileProps) {
+function MobileMenu({ toggle, isVisible }: MobileProps) {
   const redirect = () => {
     setTimeout(() => {
       toggle();
@@ -14,7 +15,10 @@ function MobileMenu({ toggle }: MobileProps) {
   return (
     <div
       id="container"
-      className="z-50 h-screen w-screen absolute font-sans animate-appear text-white top-0 left-0 bg-black flex flex-col items-center justify-evenly text-xl"
+      className={
+        "z-50 h-screen w-screen absolute md:hidden font-sans text-white top-0 left-0 bg-black flex flex-col items-center justify-evenly text-xl transition-all ease-in-out duration-700" +
+        (isVisible ? " translate-x-0" : " translate-x-[100vw]")
+      }
     >
       <div onClick={redirect}>
         <NavbarItem reference={"#home"} text={"Home"} />
@@ -37,7 +41,7 @@ function MobileMenu({ toggle }: MobileProps) {
         <NavbarItem reference={"#contact"} text={"Contact Us"} />
       </div>
 
-      <div className="absolute top-5 right-4 text-lg" onClick={redirect}>
+      <div className="absolute top-5 right-4 text-lg" onClick={toggle}>
         <AiOutlineClose />
       </div>
     </div>

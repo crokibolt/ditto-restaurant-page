@@ -1,0 +1,58 @@
+[
+    {
+      "category": "Contemporary classics",
+      "name": "Bellini",
+      "type": "Wine cocktail",
+      "served": "Straight up: chilled, without ice",
+      "standard_drinkware": "Champagne flute",
+      "method": "Pour peach purée into chilled glass, add sparkling wine. Stir gently.",
+      "notes": "Traditionally a Bellini uses white peaches for the fruit.",
+      "ingredients": ["10 cl (2 parts) Prosecco", "5 cl (1 part) fresh peach purée"]
+    },
+    {
+      "category": "Contemporary classics",
+      "name": "Black Russian",
+      "type": "Cocktail",
+      "served": "On the rocks: poured over ice",
+      "standard_drinkware": "Old fashioned glass",
+      "method": "Pour the ingredients into the old fashioned glass filled with ice cubes. Stir gently.",
+      "ingredients": ["50 ml Vodka", "20 ml Coffee liqueur"]
+    },
+    {
+      "category": "Contemporary classics",
+      "name": "Bloody Mary",
+      "type": "Mixed drink",
+      "served": "On the rocks: poured over ice",
+      "standard_drinkware": "Highball glass",
+      "method": "Stirring gently, pour all ingredients into highball glass. Garnish.",
+      "ingredients": ["4.5 cl (3 parts) vodka", "9 cl (6 parts) Tomato juice", "1.5 cl (1 part) Lemon juice", "2 to 3 dashes of Worcestershire Sauce", "Tabasco sauce", "Celery salt", "Black pepper"]
+    },
+    {
+      "category": "Contemporary classics",
+      "name": "Caipirinha",
+      "type": "Cocktail",
+      "served": "On the rocks: poured over ice",
+      "standard_drinkware": "Old fashioned glass",
+      "method": "Place lime and sugar into a double old fashioned glass and muddle gently. Fill the glass with cracked ice and add Cachaça. Stir gently to involve ingredients.",
+      "notes": "Caipiroska - instead of cachaça use vodka",
+      "ingredients": ["60 ml cachaça", "1 lime cut into small wedges", "4 teaspoons white cane sugar"]
+    },
+    {
+      "category": "Contemporary classics",
+      "name": "Champagne cocktail",
+      "type": "Cocktail",
+      "served": "Straight up: chilled, without ice",
+      "standard_drinkware": "Champagne flute",
+      "method": "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by gently pouring chilled champagne. Garnish with orange slice and maraschino cherry.",
+      "ingredients": ["9cl Champagne", "1cl Cognac", "2 dashes Angostura bitters", "1 Sugar cube"]
+    },
+    {
+      "category": "Contemporary classics",
+      "name": "Corpse reviver #2",
+      "type": "Cocktail",
+      "served": "Straight up: chilled, without ice",
+      "standard_drinkware": "Cocktail glass",
+      "method": "Shake ingredients together in a mixer with ice. Strain into chilled glass. Garnish with orange zest.",
+      "ingredients": ["3 cl gin", "3 cl lemon juice", "3 cl Cointreau", "3 cl Lillet Blanc", "1 dash absinthe"]
+    }
+]

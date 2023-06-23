@@ -14,10 +14,10 @@ function Header() {
         backgroundSize: "cover",
       }}
     >
-      <h1 className="font-tangerine text-4xl md:text-5xl text-yellow-400 animate-fade_in_left mb-6">
+      <h1 className="font-tangerine text-4xl md:text-5xl text-yellow-400 animate-fadeInLeft mb-6">
         You know what they say, go to Ditto and dine the right way
       </h1>
-      <p className="text-gray-300 text-base md:text-lg animate-fade_in_left animation-duration">
+      <p className="text-gray-300 text-base md:text-lg animate-fadeInLeft animation-duration">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed
         turpis enim. Nunc iaculis, mi vitae pharetra rutrum, elit orci lacinia
         ligula, at malesuada massa quam at nulla. Maecenas varius at neque non
@@ -30,7 +30,7 @@ function Header() {
       </p>
       <button
         onClick={scrollToMenu}
-        className="bg-yellow-400 bg-opacity-50 italic p-[6px] text-xl rounded-lg md:p-[10px] md:text-2xl mt-[30px] hover:bg-opacity-100 transition-all duration-300 ease-linear animate-fade_in_left"
+        className="bg-yellow-400 bg-opacity-50 italic p-[6px] text-xl rounded-lg md:p-[10px] md:text-2xl mt-[30px] hover:bg-opacity-100 transition-all duration-300 ease-linear animate-animate-fadeInLeft"
       >
         Check our menu
       </button>

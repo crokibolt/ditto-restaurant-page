@@ -15,8 +15,13 @@ export default {
           '0%' : {transform: 'translateX(0)'},
           '100%': {transform: 'translateX(100vw)'}
         },
-        fade_in_left: {
+        fadeInLeft: {
           '0%' : {transform: 'translateX(-10vw)',
+                  opacity: '0'},
+          '100%' : {transform: 'translateX(0)', opacity: '1'}
+        },
+        fadeInBottom : {
+          '0%' : {transform: 'translateY(30vh)',
                   opacity: '0'},
           '100%' : {transform: 'translateX(0)', opacity: '1'}
         }
@@ -24,7 +29,8 @@ export default {
       animation: {
         appear: 'appear 1s ease-in-out 1',
         disappear: 'disappear 300ms ease-in-out infinite',
-        fade_in_left: 'fade_in_left 1.5s ease-in 1',
+        fadeInLeft: 'fadeInLeft 1s ease-in 1',
+        fadeInBottom: 'fadeInBottom 700ms ease-in 1'
       }
     },
   fontFamily: {

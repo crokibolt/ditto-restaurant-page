@@ -4,7 +4,7 @@ function AboutUs() {
       id="about"
       className="h-screen w-screen bg-[url(/src/assets/bg-about.jpg)] bg-cover bg-no-repeat flex flex-col items-center gap-4 md:gap-8 py-8 md:py-16 lg:py-24 scroll-smooth"
     >
-      <div className="text-yellow-400 italic text-center text-3xl md:text-4xl lg:text-5xl tracking-wider font-sans font-bold">
+      <div className="text-yellow-400 italic text-center text-3xl md:text-4xl lg:text-5xl tracking-wider font-sans font-bold  animate-fadeInBottom">
         <h1>ABOUT US</h1>
       </div>
       <div className="w-full h-full flex">

@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { AboutUs, Header } from "./pages";
+import { AboutUs, Header, Menu } from "./pages";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutUs />
+      <Menu />
     </div>
   );
 }
