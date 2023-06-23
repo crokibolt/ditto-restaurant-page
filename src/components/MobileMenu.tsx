@@ -14,7 +14,7 @@ function MobileMenu({ toggle }: MobileProps) {
   return (
     <div
       id="container"
-      className="h-screen w-screen absolute font-sans animate-appear text-white top-0 left-0 bg-black flex flex-col items-center justify-evenly text-xl"
+      className="z-50 h-screen w-screen absolute font-sans animate-appear text-white top-0 left-0 bg-black flex flex-col items-center justify-evenly text-xl"
     >
       <div onClick={redirect}>
         <NavbarItem reference={"#home"} text={"Home"} />
@@ -38,9 +38,7 @@ function MobileMenu({ toggle }: MobileProps) {
       </div>
 
       <div className="absolute top-5 right-4 text-lg" onClick={redirect}>
-        <a href="#home">
-          <AiOutlineClose />
-        </a>
+        <AiOutlineClose />
       </div>
     </div>
   );
