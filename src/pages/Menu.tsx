@@ -38,7 +38,7 @@ function Menu() {
       {selectedMenu == 1 && (
         <div
           className={
-            "absolute text-white top-[45vh] md:top-[65vh]  lg:top-[50vh] right-2 md:right-[45vw] lg:right-12 text-[25px] md:text-[50px] lg:text-[90px] cursor-pointer transition-all ease-in duration-100 hover:translate-x-4"
+            "absolute text-white top-[45vh] md:top-[65vh]  lg:top-[50vh] right-2 md:right-[45vw] lg:right-12 text-[25px] md:text-[50px] lg:text-[75px] cursor-pointer transition-all ease-in duration-100 hover:translate-x-4"
           }
           onClick={() => setSelectedMenu(2)}
         >
@@ -48,7 +48,7 @@ function Menu() {
       {selectedMenu == 2 && (
         <div
           className={
-            "absolute text-white top-[45vh] md:top-[65vh] lg:top-[50vh] left-2 md:left-[50vw] lg:left-12 text-[25px]  md:text-[50px] lg:text-[90px] cursor-pointer transition-all ease-in duration-100 hover:-translate-x-4"
+            "absolute text-white top-[45vh] md:top-[65vh] lg:top-[50vh] left-2 md:left-[50vw] lg:left-12 text-[25px]  md:text-[50px] lg:text-[75px] cursor-pointer transition-all ease-in duration-100 hover:-translate-x-4"
           }
           onClick={() => setSelectedMenu(1)}
         >
@@ -72,7 +72,7 @@ const MiniMenu = ({ data, title, bg }: Props) => {
       <h2 className="text-yellow-400 font-tangerine text-5xl md:text-7xl text-center w-screen h-fit pt-12 flex-shrink-0">
         {title}
       </h2>
-      <div className="w-screen flex justify-around gap-4 mt-[85px] md:mt-0 lg:pt-6 px-10 md:px-5 lg:px-10">
+      <div className="w-screen flex justify-around gap-4 mt-[85px] md:mt-0 lg:pt-6 px-10 md:px-5 lg:px-[100px]">
         <div className="text-white text-left">
           <MenuItem
             name={data[0].name}
