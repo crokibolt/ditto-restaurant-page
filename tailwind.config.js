@@ -35,6 +35,7 @@ export default {
     },
   fontFamily: {
     'tangerine': ['Tangerine' , 'ui-sans-seriff','sans-seriff', 'Roboto'],
+    'hallelujah': ['Gloria Hallelujah', 'ui-sans-seriff','sans-seriff', 'Roboto']
   }
   },
   plugins: [],

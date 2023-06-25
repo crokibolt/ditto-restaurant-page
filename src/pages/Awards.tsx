@@ -8,7 +8,7 @@ function Awards() {
       className="h-screen w-screen bg-[url('/src/assets/bg-awards.jpg')] bg-no-repeat bg-cover py-8 px-6 md:px-16 flex flex-col gap-8 text-yellow-400"
     >
       <h1 className="font-sans text-center text-3xl md:text-5xl">Our awards</h1>
-      <div className="flex h-full">
+      <div className="flex h-full overflow-y-hidden">
         <div className="w-[50vw] md:w-[60vw] h-full">
           <div className="my-[200px] md:pl-[20px] lg:pl-[190px] font-tangerine text-3xl md:text-4xl lg:text-5xl">
             <p className="relative mb-9">
@@ -34,7 +34,7 @@ function Awards() {
             </p>
           </div>
         </div>
-        <div className="shrink h-full border-r-2 border-r-yellow-400"></div>
+        <div className="shrink max-h-full h-full border-r-2 border-r-yellow-400"></div>
         <div className="flex-1 text-center font-tangerine text-3xl md:text-4xl lg:text-5xl my-auto">
           <img src={trophy} alt="" className="max-h-[600px] mx-auto mb-9" />
           <p className="relative mb-9">

@@ -10,6 +10,7 @@ function App() {
       <AboutUs />
       <Menu />
       <Awards />
+      <ChefNotes />
     </div>
   );
 }
