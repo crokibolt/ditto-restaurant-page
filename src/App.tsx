@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { AboutUs, Awards, ChefNotes, Header, Menu, Contact } from "./pages";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Awards />
       <ChefNotes />
       <Contact />
+      <Footer />
     </div>
   );
 }
