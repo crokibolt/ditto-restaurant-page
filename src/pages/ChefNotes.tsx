@@ -4,7 +4,7 @@ function ChefNotes() {
   return (
     <div
       id="chef"
-      className="w-screen h-fit md:h-screen bg-gradient-to-br from-amber-600 to-sky-500 py-10"
+      className="w-screen h-fit md:h-screen bg-gradient-to-br from-black via-gray-700 to-gray-300 py-10"
     >
       <h1 className="text-3xl md:text-5xl text-center font-bold mb-4 md:mb-8">
         Our Chef

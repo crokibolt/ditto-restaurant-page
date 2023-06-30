@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { AboutUs, Awards, ChefNotes, Header, Menu } from "./pages";
+import { AboutUs, Awards, ChefNotes, Header, Menu, Contact } from "./pages";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Menu />
       <Awards />
       <ChefNotes />
+      <Contact />
     </div>
   );
 }
