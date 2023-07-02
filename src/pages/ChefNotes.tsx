@@ -30,7 +30,7 @@ function ChefNotes() {
             nec sem tincidunt suscipit sit amet ullamcorper arcu. Fusce pharetra
             justo non sodales cursus.
           </p>
-          <p className="font-hallelujah font-bold text-center md:text-left text-5xl md:text-6xl">
+          <p className="font-hallelujah font-bold text-center mt-[40px] md:text-left text-5xl md:text-6xl">
             Milton Kawirpi
           </p>
         </div>
